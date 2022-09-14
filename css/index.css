@@ -1,0 +1,36 @@
+* {
+	font-family: "Verdana";
+	font-size: 20px;
+}
+h1 {
+	font-size: 3rem;
+}
+#uppercase {
+	text-transform: uppercase;
+}
+
+#external {
+	color: yellow;
+}
+.languages-list {
+	background-color: #aed19d;
+}
+li[name] {
+	border: 2px solid rgb(157, 176, 209);
+
+}
+/*Descendant selector*/
+section img {
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+}
+/*Adjacent selector*/
+img + ul {
+	list-style-type: none;
+	letter-spacing: 10px;
+}
+/*General sibling selector*/
+ul ~ p {
+	text-align: center;
+}
